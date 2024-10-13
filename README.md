@@ -1,7 +1,29 @@
+# Todo List Command Line Interface (CLI)
+
+This CLI (Command Line Interface) tool allows you to manage your todo list. You can add, delete, mark todos as done, view your todos, and clear the list. All the data is saved in a `todos.json` file.
+
+## Features
+
+- Add new todos with a specified starting time.
+- Delete todos from the list.
+- Mark todos as completed.
+- View your current todos with their status.
+- Clear all todos from the list.
+
+## Prerequisites
+
+- **Node.js** should be installed on your system.
+- Install `commander` for command-line interface management by running:
+
+```bash
+npm install commander
+
+
 Usage
 To use this CLI, you will run the script with one of the following commands:
 
 node <filename> <command> [arguments]
+
 Replace <filename> with your script file name (e.g., todo.js).
 
 Commands and Examples:-
